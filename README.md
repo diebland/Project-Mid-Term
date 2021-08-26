@@ -42,12 +42,17 @@ SQL, tableau and statistics analysis with Python.
 
 The project includes SQL part to explore the dataset we have been provided with.
 
-We will work with MySQLWorkbench. This work can be found on the file. link of the file
+We first need to create our database and import the data on MySQLWorkbench.
+We will write several queries using GROUP BY and ORDER BY statements windows functions, subqueries and views.
+Link to the file.
 
 
 2. Tableau
 
-Vizualization of the data. link of the file or include images
+We have used Tableau to better vizualize the data.
+The dashbord contains different bar charts and tables to see correlation or absence of correlation between some of our variables, especially our target column.
+
+link of the file or include images
 
 3. Classification model
 
