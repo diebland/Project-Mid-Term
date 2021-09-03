@@ -1,4 +1,4 @@
-# Classification Problem : Credit card offer analysis
+# Classification Problem : Credit Card Offer Analysis
 
 
 ## Background
@@ -17,16 +17,15 @@ Data: The data set consists of information on 18,000 current bank customers. The
 - **Reward:** The type of reward program offered for the card.
 - **Mailer Type**: Letter or postcard.
 - **Income Level**: Low, Medium or High.
-- **#Bank Accounts Open**: How many non-credit-card accounts are held by the customer.
+- **Bank Accounts Open**: How many non-credit-card accounts are held by the customer.
 - **Overdraft Protection**: Does the customer have overdraft protection on their checking account(s) (Yes or No).
 - **Credit Rating**: Low, Medium or High.
-- **#Credit Cards Held**: The number of credit cards held at the bank.
-- **#Homes Owned**: The number of homes owned by the customer.
+- **Credit Cards Held**: The number of credit cards held at the bank.
+- **Homes Owned**: The number of homes owned by the customer.
 - **Household Size**: Number of individuals in the family.
 - **Own Your Home**: Does the customer own their home? (Yes or No).
 - **Average Balance**: Average account balance (across all accounts over time). 
 - **Q1, Q2, Q3 and Q4** **Balance**: Average balance for each quarter in the last year
-
 
 ## Objectives
 
@@ -40,26 +39,28 @@ SQL, tableau and statistics analysis with Python.
 
 1. SQL 
 
-The project includes SQL part to explore the dataset we have been provided with.
+The project includes SQL with.
 
 We first need to create our database and import the data on MySQLWorkbench.
 We will write several queries using GROUP BY and ORDER BY statements windows functions, subqueries and views.
 Link to the file.
 
+This is [an example](http://example.com/ "Title") inline link.
 
-2. Tableau
+[This link](http://example.net/) has no title attribute 2. Tableau
 
 We have used Tableau to better vizualize the data.
 The dashbord contains different bar charts and tables to see correlation or absence of correlation between some of our variables, especially our target column.
 
-link of the file or include images
+[link of the file]
 
 3. Classification model
 
-3.1. Exploring the data
+3.1. Exploring the data we will  clean the dataframe and create vizualization of the datas.
+
 3.2 Modeling
 
-We will use different models to compare the accuracies and find the model that best fits our data. 
+We will use two different models - Logistic Regression and KNN Classifier to compare the accuracies and find the model that best fits our data. 
 Then, we will compare the different models using accuracy measures.
 
 4. Bonus : Write three or more functions that can be reused for another project. This work can be found on the file : link of the file
@@ -69,20 +70,14 @@ Then, we will compare the different models using accuracy measures.
 
 ## Documentation
 
-Original and cleaned datasets as well as the graphs used in this project can be found on the folder documentation
+Original and cleaned datasets as well as the graphs used in this project can be found on the folder documentation.
 
-Sources https://www.kaggle.com/ekrembayar/fifa-21-complete-player-dataset)
-
-List of libraries (with a link to the documentation) https://scikit-learn.org/stable/index.html
-
-https://docs.scipy.org/doc/scipy/reference/index.html
-
-https://pandas.pydata.org/
-
-https://numpy.org/doc/
-
-https://matplotlib.org/3.1.1/
-
-https://seaborn.pydata.org
+List of libraries (with a link to the documentation):
+[Pandas](http://https://pandas.pydata.org/"Title") 
+[Numpy](http://https://numpy.org/doc/"Title") 
+[Matplotlib](http://https://matplotlib.org/3.1.1/"Title")
+[Seaborn](http://https://seaborn.pydata.org/"Title")
+[Scikit-learn](http://scikit-learn.org/stable/index.html/"Title")
+[Scipy](http://docs.scipy.org/doc/scipy/reference/index.html/"Title")
 
 
