@@ -1,4 +1,15 @@
+![image](https:/Project_Details/image.png"creditCard")
+
+
+
+
+
 # Classification Problem : Credit Card Offer Analysis
+
+
+**Student Project to apply SQL, Tableau and data analysis (with Python) concepts and techniques**    
+
+
 
 
 ## Background
@@ -25,7 +36,8 @@ Data: The data set consists of information on 18,000 current bank customers. The
 - **Household Size**: Number of individuals in the family.
 - **Own Your Home**: Does the customer own their home? (Yes or No).
 - **Average Balance**: Average account balance (across all accounts over time). 
-- **Q1, Q2, Q3 and Q4** **Balance**: Average balance for each quarter in the last year
+- **Q1, Q2, Q3 and Q4** **Balance**: Average balance for each quarter in the last year  
+
 
 ## Objectives
 
@@ -33,28 +45,35 @@ The task is to build a model that will provide insight into why some bank custom
 
 we will use different tools to analyze the data :
 
-SQL, tableau and statistics analysis with Python.
+SQL, tableau and statistics analysis with Python.  
+
 
 ## Our steps
 
 1. SQL 
 
-The project includes SQL with.
+The project includes [SQL](https://github.com/diebland/Project-Mid-Term/blob/main/SQL-CreditCardClassification.sql/ "SQL").  
 
 We first need to create our database and import the data on MySQLWorkbench.
-We will write several queries using GROUP BY and ORDER BY statements windows functions, subqueries and views.
-Link to the file.
 
-This is [an example](http://example.com/ "Title") inline link.
+Then we will write several queries using GROUP BY and ORDER BY statements windows functions, subqueries and views.
 
-[This link](http://example.net/) has no title attribute 2. Tableau
+    
 
-We have used Tableau to better vizualize the data.
-The dashbord contains different bar charts and tables to see correlation or absence of correlation between some of our variables, especially our target column.
+2. Tableau
 
-[link of the file]
+We have used [Tableau](https://github.com/diebland/Project-Mid-Term/blob/main/Tableau.twb/ "Tableau"). to explore the data and visualize the information we can extract from it.  
+
+The dashbord contains different bar charts and tables to see correlation or absence of correlation between some of our variables, especially our target column "offer_accepted".
+
+ 
 
 3. Classification model
+
+[We have analyse the data and implement machine learning algorithms with Python.](https://github.com/diebland/Project-Mid-Term/blob/main/Classification_Project.ipynb/ "ClassificationModel").  
+
+
+We have analyse the data and implement machine learning algorithms with Python.
 
 3.1. Exploring the data we will  clean the dataframe and create vizualization of the datas.
 
@@ -63,9 +82,27 @@ The dashbord contains different bar charts and tables to see correlation or abse
 We will use two different models - Logistic Regression and KNN Classifier to compare the accuracies and find the model that best fits our data. 
 Then, we will compare the different models using accuracy measures.
 
-4. Bonus : Write three or more functions that can be reused for another project. This work can be found on the file : link of the file
+4. Functions 
+[Please find also a Jupyter Notebook with all the functions written for this project but to be re-used for other projects.](https://github.com/diebland/Project-Mid-Term/blob/main/functions.ipynb/ "functions").  
+
+
 
 ## Conclusion
+
+**Comparison of accuracy scores**     
+
+
+
+| Models                     |     Logistic Regression   |   KNNClassifier | 
+| --------------------------:|: -----------------------: | ---------------:|
+| BoxCox & SMOTE             |           0,94            |       0,86      |
+| BoxCox & upsampling        |           1               |       0,90      |
+| Normalization & upsampling |           0,70            |       0,97      |     
+
+   
+
+We have obtained high accuracy scores in most of our runs. However, we should not necessary be confident on how our models work on future data. In fact, the high results may let us think that they could be overfitted.
+
 
 
 ## Documentation
@@ -73,11 +110,16 @@ Then, we will compare the different models using accuracy measures.
 Original and cleaned datasets as well as the graphs used in this project can be found on the folder documentation.
 
 List of libraries (with a link to the documentation):
-[Pandas](http://https://pandas.pydata.org/"Title") 
-[Numpy](http://https://numpy.org/doc/"Title") 
-[Matplotlib](http://https://matplotlib.org/3.1.1/"Title")
-[Seaborn](http://https://seaborn.pydata.org/"Title")
-[Scikit-learn](http://scikit-learn.org/stable/index.html/"Title")
-[Scipy](http://docs.scipy.org/doc/scipy/reference/index.html/"Title")
+- [Pandas](http://https://pandas.pydata.org/"Title")  
+
+- [Numpy](http://https://numpy.org/doc/"Title")   
+
+- [Matplotlib](http://https://matplotlib.org/3.1.1/"Title")  
+
+- [Seaborn](http://https://seaborn.pydata.org/"Title")   
+
+- [Scikit-learn](http://scikit-learn.org/stable/index.html/"Title")  
+
+- [Scipy](http://docs.scipy.org/doc/scipy/reference/index.html/"Title")
 
 

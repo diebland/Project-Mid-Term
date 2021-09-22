@@ -99,13 +99,11 @@ WHERE offer_accepted = "No";
 
 -- Find the difference in average balances of the customers with high credit card rating and low credit card rating.
 
-SELECT ROUND(AVG(average_balance),2) avg_balance_high
+SELECT credit_rating, ROUND(AVG(average_balance),2)
 FROM credit_card_data
-WHERE credit_rating = "High";
+WHERE (credit_rating = 'High' OR credit_rating = 'Medium')
+GROUP BY credit_rating;
 
-SELECT ROUND(AVG(average_balance),2) avg_balance_medium
-FROM credit_card_data
-WHERE credit_rating = "Medium";
 
 -- Find all types of communication (mailer_type) that were used and with how many customers
 SELECT mailer_type, COUNT(customer_number)
